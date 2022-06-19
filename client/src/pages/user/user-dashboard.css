@@ -1,0 +1,149 @@
+.dashboard {
+    width: 100%;
+    margin: auto;
+}
+
+.dashboard-wrapper {
+    gap: 2.5rem;
+    flex-direction: column;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.dashboard-wrapper .user-nav {
+    width: 90%;
+    background: crimson;
+    padding: 2rem 0 2rem 0.5rem;
+    height: 100%;
+    box-shadow: 1px 4px 20px 0px #c3c3c3;
+    border-radius: 10px;
+}
+
+.user-nav .user-nav-wrapper {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+.user-nav .user-nav-wrapper .item {
+    font-size: 20px;
+    width: 100%;
+    transition: color .5s;
+    margin-bottom: 0.5rem;
+}
+
+.user-nav-wrapper .item a {
+    color: #b5b5b5;
+    transition: all .5s;
+}
+
+.user-nav .user-nav-wrapper .item:hover a {
+    color: #fff;
+
+}
+
+.user-nav .user-nav-wrapper .active a {
+    width: 100%;
+    border-radius: 10px;
+    background: #324d67;
+    padding: 6px 10px;
+    color: #fff;
+    transition: all .5s;
+}
+
+.dashboard-wrapper .user-dashboard-main {
+    width: 90%;
+    background: #e3e3e3;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 1px 4px 20px 0px #c3c3c3;
+}
+
+.user-dashboard-main .heading {
+    font-size: 1.3rem;
+    color: var(--primary-text);
+}
+
+.order-wrapper {
+    margin-bottom: 1.5rem;
+    border: 1px solid #cfcfcf;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.order-item div a {color: crimson;}
+
+.btn-animate {
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.btn-animate svg {
+    margin-right: 0.4rem;
+}
+
+.btn-animate::before {
+    background: #404040;
+}
+
+.btn-animate::after {
+    background: #282828;
+}
+
+.user-dashboard-main .user-form label {
+    color: var(--primary-text); 
+}
+
+.user-dashboard-main .user-form input {
+    margin-top: 1rem;
+}
+
+.wishlist {
+    background: #FACE7F;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+}
+
+.wishlist-title {
+    color: #324d67;
+}
+
+.wishlist-delete{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    color: crimson;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 800px)  {
+    .dashboard-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .dashboard-wrapper .user-nav {
+        flex: 1;
+    }
+
+    .user-dashboard-main {
+        flex: 3;
+    }
+
+    .user-dashboard-main .heading {
+        font-size: 3rem;
+    }
+
+    .user-nav .user-nav-wrapper {
+        display: block;
+    }
+}

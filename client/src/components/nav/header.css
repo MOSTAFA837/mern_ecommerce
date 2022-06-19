@@ -1,0 +1,172 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    /* padding: 0 1rem; */
+    height: 10vh;
+    background-color: #fff; 
+}
+
+.left , .desktop-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.item svg {
+    font-size: 1.4rem;
+}
+
+.user {
+    background: rgba(0, 0, 0, 0.123);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.user .userBtn{
+    color: red;
+}
+
+.header a {
+    color: black;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
+.header a:hover {
+    color: crimson;
+}
+
+.search-wrapper {
+    display: flex;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.search-wrapper svg {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-length {
+    position: absolute;
+    font-size: 1rem;
+    background: crimson;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    right: -19px;
+    padding: 10px;
+}
+
+.menu {
+    background: rgb(228, 228, 228);
+    border-radius: 10px;
+    height: 100%;
+    flex-direction: column;
+
+    /* position: relative; */
+}
+
+.search-wrapper {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .desktop-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .mobile-wrapper {
+        display: none;
+    }
+}
+
+/* .user-actions {
+    position: relative;
+}
+
+.setting {
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    right: .5rem;
+    display: none;
+    opacity: 0;
+    background: rgb(228, 227, 227);
+    padding: 0.5rem;
+    margin: auto;
+    transition: all .5s;
+} */
+
+.dropdown.show {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown .item {
+    margin-bottom: 0.5rem;
+}
+
+.dropdown a {
+    margin-right: 0;
+    margin: auto;
+}
+
+/* .header .right {
+    display: flex;
+    margin: 20px;
+}
+
+.header_item {
+    margin: 20px;
+}
+
+.userDrop {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    background: #333;
+    width: fit-content;
+    height: 20vh;
+    padding: 20px;
+    right: 50px;
+    top: 50px;
+} */
+/* 
+.active {
+    display: block;
+} */
+
+
+/* .menu_option {
+    position: absolute;
+    background: red;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    right: 50px;
+
+} */

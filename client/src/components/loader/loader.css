@@ -1,0 +1,17 @@
+.loading {
+    /* margin-bottom: 20px; */
+}
+.loading div {
+    border: 1px solid blue;
+    border-bottom-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation: loadingRotate 800ms linear infinite;
+}
+
+@keyframes loadingRotate {
+    to {
+        transform: rotateZ(-360deg);
+    }
+}

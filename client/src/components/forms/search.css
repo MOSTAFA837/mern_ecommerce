@@ -1,0 +1,15 @@
+.menu_search_form {
+    width: 100%;
+}
+
+.menu_search_form input {
+    width: 100%;
+}
+
+.search {
+    padding-right: 1rem;
+    outline: none;
+    border: none;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+}

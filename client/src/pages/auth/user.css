@@ -1,0 +1,115 @@
+.user-container {
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.user-container .heading {
+    font-size: 3rem;
+    color: var(--primary-text);
+}
+
+.user-container .main {
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
+}
+
+
+.user-container .main .left, .user-container .main .right {
+    flex-direction: column;
+    padding: 2rem .5rem;
+    width: 50%;
+}
+
+.user-form {
+    flex-direction: column;
+    width: 100%;
+} 
+
+.input-container {
+    width: 100%;
+}
+
+.input-container .input {
+    outline: none;
+    border: 1px solid #c1c1c1;
+    padding: 0.5rem 0.2rem;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    padding: 10px 20px;
+}
+
+.left button {
+    /* width: 70%; */
+    margin: 1rem 0;
+    z-index: 0;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+.user-container .btn-animate {
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.user-container .btn-animate svg {
+    margin-right: 0.4rem;
+}
+
+.user-container .btn-animate::before {
+    background: #404040;
+}
+
+.user-container .btn-animate::after {
+    background: #282828;
+}
+
+.user-container .main .right {
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    padding-left: 2rem;
+    background-color: rgba(206, 206, 206, 0.459);
+}
+
+.main .right .new-user {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* padding: 2rem 8rem 2rem 2rem; */
+}
+
+.user-container .main .right ul {
+    list-style: none;
+    margin: 1rem;
+}
+
+.user-container .main .right li {
+    margin-left: 1rem;
+}
+
+.user-container .main .right a {
+    border: none;
+    margin: 1.5rem 0 0;
+    z-index: 3;
+}
+
+.user-container .main .right a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .user-container .main .left, .user-container .main .right {
+        width: 90%;
+    }
+    .user-container .main{
+        flex-direction: column;
+    }
+
+    .main .right .new-user {
+        /* padding: 2rem 0 0 0; */
+    }
+}

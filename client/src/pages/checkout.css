@@ -1,0 +1,49 @@
+.checkout {
+    width: 90%;
+    margin: 3rem auto;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 850px) {
+    .checkout {
+        flex-direction: column;
+    }
+
+    .checkout_address, .checkout_summary {
+        margin: auto;
+    }
+}
+
+.checkout_address .coupon_heading {
+    font-size: 1.3rem;
+    color: #324d67;
+}
+
+.checkout_address input {
+    outline: none;
+    border: 1px solid #939393;
+    height: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+
+.checkout_heading {
+    font-size: 2rem;
+    color: var(--primary-text);
+}
+
+.checkout_summary p {
+   border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.checkout_summary .total {
+   font-size: 1.2rem;
+   color: var(--secondary-text);
+}
+
+.checkout-btn {
+   margin: .5rem 0;
+}

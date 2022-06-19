@@ -1,0 +1,31 @@
+const initialState = {
+  title: "",
+  description: "",
+  price: "",
+  categories: [],
+  category: "",
+  subs: [],
+  shippOptions: ["Yes", "No"],
+  shipping: "",
+  quantity: "",
+  images: [],
+  colors: ["Black", "Red", "silver", "White", "Blue"],
+  brands: [
+    "Gigabyte",
+    "Acer",
+    "MSI Optix",
+    "BenQ",
+    "ASUS ROG",
+    "ASUS TUF",
+    "Palit GeForce",
+    "AMD",
+    "Intel",
+    "AORUS",
+    "HyperX ",
+    "HP",
+  ],
+  color: "",
+  brand: "",
+};
+
+export default initialState;

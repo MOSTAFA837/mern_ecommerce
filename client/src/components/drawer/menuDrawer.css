@@ -1,0 +1,66 @@
+.ant-drawer-content-wrapper {
+    width: 50% !important; 
+}
+
+.side-cart {
+    justify-content: flex-start;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.btn-warpper{
+    margin-top: 3rem;
+} 
+
+
+.menu {
+    border-radius: 10px;
+    height: 40%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.menu a {
+    color: black;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+
+.search-wrapper {
+    margin-right: 0;
+}
+
+.item svg {
+    font-size: 1.4rem;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.user .userBtn{
+    color: red;
+}
+
+.header a {
+    color: black;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
+.header a:hover {
+    color: crimson;
+}
+
+@media screen and (min-width: 660px) {
+    .side-cart {
+        flex-direction: row;
+    }
+}

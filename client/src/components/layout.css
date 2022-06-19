@@ -1,0 +1,9 @@
+.layout {
+    min-height: 100vh;
+    /* display: grid;
+    grid-template-rows: 10vh auto 20vh; */
+}
+
+.content {
+    min-height: 100vh;
+}

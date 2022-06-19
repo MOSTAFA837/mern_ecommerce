@@ -1,0 +1,7 @@
+.category_heading_wrapper {
+    padding: 3rem 0;
+}
+.category_heading_wrapper .category_heading h4{
+    font-size: 2rem;
+    color: var(--primary-text);
+}
